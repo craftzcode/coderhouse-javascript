@@ -1,14 +1,13 @@
-let table = parseInt(prompt("Cuantos dolares queres invertir en Bitcoin"));
+//Pedir un numero por prompt y repetir Hola la cantidad de veces ingresada
+
+let ingreso = parseInt(prompt("Ingresar un numero"));
+console.log(ingreso);
 let result;
 
-if (table > 0) {
-  for (let i = 0; i <= 10; i++) {
-    result = table * i;
-    console.log(result);
-    if (i == 8) {
-      break;
+
+if (ingreso > 0) {
+    for (i = 1; i <= ingreso; i++) {
+        result = ingreso + ' ' + ' Hola';
+        console.log(result);
     }
-  }
-} else {
-  console.log("Chau");
 }
