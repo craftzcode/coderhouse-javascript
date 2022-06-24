@@ -7,7 +7,7 @@ let result;
 
 if (ingreso > 0) {
     for (i = 1; i <= ingreso; i++) {
-        result = ingreso + ' ' + ' Hola';
+        result = 'Hola';
         console.log(result);
     }
 }
